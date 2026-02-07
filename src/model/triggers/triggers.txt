@@ -1,0 +1,9 @@
+onHit
+battleStart
+afterThreeStrikes
+turnStart
+wounded
+exposed
+onHealthRegen
+onDamageTaken
+onNewWeaponSelect

@@ -1,0 +1,212 @@
+{ "items": [
+    {
+        "id": "BoomStick",
+        "name": "Boom Stick",
+        "type": "Weapon",
+        "rarity": "common",
+        "stats": {
+            "attack": 2,
+            "armor": 0,
+            "speed": 0,
+            "health": 0
+        },
+        "triggers": ["OnHit"],
+        "effects": {
+            "dealDamage": 1
+        },
+        "description": "On Hit: Deal 1 damage",
+        "tag": "Bomb"
+    },
+    {
+        "id": "BrittlebarkBow",
+        "name": "Brittlebark Bow",
+        "type": "Weapon",
+        "rarity": "common",
+        "stats": {
+            "attack": 4,
+            "armor": 0,
+            "speed": 0,
+            "health": 0
+        },
+        "triggers": ["AfterThreeStrikes"],
+        "effects": {
+            "gainDamage": -2
+        },
+        "description": "After 3 strikes: Lose 2 attack",
+        "tag": "Wood"
+    },
+    {
+        "id": "ChampionBlade",
+        "name": "Champion's Blade",
+        "type": "Weapon",
+        "rarity": "common",
+        "stats": {
+            "attack": 6,
+            "armor": 0,
+            "speed": 0,
+            "health": 0
+        },
+        "triggers": null,
+        "effects": null,
+        "description": null,
+        "tag": null
+    },
+    {
+        "id": "ElderwoodStaff",
+        "name": "Elderwood Staff",
+        "type": "Weapon",
+        "rarity": "common",
+        "stats": {
+            "attack": 1,
+            "armor": 1,
+            "speed": 1,
+            "health": 0
+        },
+        "triggers": null,
+        "effects": null,
+        "description": null,
+        "tag": "Wood"
+    },
+    {
+        "id": "FeatherweightBlade",
+        "name": "Featherweight Blade",
+        "type": "Weapon",
+        "rarity": "common",
+        "stats": {
+            "attack": 2,
+            "armor": 0,
+            "speed": 2,
+            "health": 0
+        },
+        "triggers": null,
+        "effects": null,
+        "description": null,
+        "tag": null
+    },
+    {
+        "id": "ForgeHammer",
+        "name": "Forge Hammer",
+        "type": "Weapon",
+        "rarity": "common",
+        "stats": {
+            "attack": 4,
+            "armor": 0,
+            "speed": 0,
+            "health": 0
+        },
+        "triggers": ["OnHit"],
+        "effects": {
+            "giveArmor": 2
+        },
+        "description": "On Hit: Give the enemy 2 armor",
+        "tag": null
+    },
+    {
+        "id": "FungalRapier",
+        "name": "Fungal Rapier",
+        "type": "Weapon",
+        "rarity": "common",
+        "stats": {
+            "attack": 3,
+            "armor": 0,
+            "speed": 0,
+            "health": 0
+        },
+        "triggers": ["battleStart"],
+        "effects": {
+            "gainEffect": {"poison": 1}
+        },
+        "description": "Battle Start: Gain 1 poison",
+        "tag": null
+    },
+    {
+        "id": "GaleStaff",
+        "name": "Gale Staff",
+        "type": "Weapon",
+        "rarity": "common",
+        "stats": {
+            "attack": 2,
+            "armor": 0,
+            "speed": 6,
+            "health": 0
+        },
+        "triggers": ["OnHit"],
+        "effects": {
+            "gainSpeed": -1
+        },
+        "description": "On Hit: Lose 1 speed",
+        "tag": null
+    },
+    {
+        "id": "MeatStick",
+        "name": "Grilling Skewer",
+        "type": "Weapon",
+        "rarity": "common",
+        "stats": {
+            "attack": 1,
+            "armor": 0,
+            "speed": 6,
+            "health": 0
+        },
+        "triggers": ["battleStart"],
+        "effects": {
+            "gainStrike": 1
+        },
+        "description": "Battle Start: Gain 1 additional strike",
+        "tag": "Food"
+    },
+    {
+        "id": "HeartDriker",
+        "name": "Heart Driker",
+        "type": "Weapon",
+        "rarity": "common",
+        "stats": {
+            "attack": 1,
+            "armor": 0,
+            "speed": 0,
+            "health": 0
+        },
+        "triggers": ["OnHit"],
+        "effects": {
+            "gainHealth": 1
+        },
+        "description": "On Hit: Restore 1 health",
+        "tag": "Sanguine"
+    },
+    {
+        "id": "HiddenDagger",
+        "name": "Hidden Dagger",
+        "type": "Weapon",
+        "rarity": "common",
+        "stats": {
+            "attack": 2,
+            "armor": 0,
+            "speed": 0,
+            "health": 0
+        },
+        "triggers": ["onNewWeaponSelect"],
+        "effects": {
+            "gainDamage": 2
+        },
+        "description": "On Hit: Restore 1 health",
+        "tag": null
+    },
+    {
+        "id": "IronstoneGreatsword",
+        "name": "Ironstone Greatsword",
+        "type": "Weapon",
+        "rarity": "common",
+        "stats": {
+            "attack": 4,
+            "armor": 0,
+            "speed": -2,
+            "health": 0
+        },
+        "triggers": null,
+        "effects": null,
+        "description": null,
+        "tag": "Stone"
+    }
+
+    
+] }
