@@ -156,8 +156,8 @@
         "tag": "Food"
     },
     {
-        "id": "HeartDriker",
-        "name": "Heart Driker",
+        "id": "HeartDrinker",
+        "name": "Heart Drinker",
         "type": "Weapon",
         "rarity": "common",
         "stats": {
@@ -188,7 +188,7 @@
         "effects": {
             "gainDamage": 2
         },
-        "description": "On Hit: Restore 1 health",
+        "description": null,
         "tag": null
     },
     {
@@ -206,7 +206,5 @@
         "effects": null,
         "description": null,
         "tag": "Stone"
-    }
-
-    
+    }    
 ] }
